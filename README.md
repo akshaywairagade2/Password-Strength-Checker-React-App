@@ -4,7 +4,7 @@ Password Entropy signifies a **measure of password strength**, i.e., how effect
 
 Therefore, in principle, **the greater the entropy, the better a password**, at least when it comes to resisting brute force attacks.
 
-This is half the number of attempts to guess with a 100% certainty - if a password has `n` bits of entropy, an attacker needs on average `2n - 1`guesses.
+This is half the number of attempts to guess with a 100% certainty - if a password has `n` bits of entropy, an attacker needs on average `2^(n-1)`guesses.
 
 ## Method of Checking
 
